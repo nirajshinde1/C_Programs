@@ -1,3 +1,7 @@
+// This is using extern storage class so to execute gives commands as follows:
+// gcc Addition_extern.c Add_extern.c -o myexe
+// ./myexe
+
 #include<stdio.h>
 extern int add();
 int main()
